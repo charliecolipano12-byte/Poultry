@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Browse chicken listings by age category."><title>Chicken Categories | Meadow & Feather Farm</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body data-page="shop">
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">M<span>&</span>F</span><span class="brand-name">Meadow <i>&</i> Feather<small>FAMILY FARM • EST. 2014</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="shop.html">Chicken Categories</a><a href="admin.html">Farm Admin</a></nav></header>
+  <main>
+    <section class="page-banner shop-banner"><span class="eyebrow">THE MEADOW & FEATHER FLOCK</span><h1>Chicken categories</h1><p>Browse our farm-raised chickens by age.</p></section>
+    <section class="section category-page">
+      <nav class="category-filters" aria-label="Chicken age categories"><button class="category-chip selected" data-category="all">All chickens</button><button class="category-chip" data-category="4">4 months</button><button class="category-chip" data-category="5">5 months</button><button class="category-chip" data-category="6">6 months & older</button></nav>
+      <div class="results-toolbar"><p id="results-count" aria-live="polite"></p></div><div class="product-grid" id="shop-products"></div><p class="empty-state" id="empty-state" hidden>No chickens are listed in this age category.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-bottom"><span>© 2026 Meadow & Feather Farm</span><a href="index.html">Home</a><a href="admin.html">Farm Admin</a></div></footer>
+</body></html>
